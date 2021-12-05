@@ -11,7 +11,7 @@ window.addEventListener("beforeunload", function (e) {
 window.onload = choosePic;
 
 var theAd = 0;
-var adImages = new Array("images/poke.jpg","images/fishy.jpg","images/snacks.jpg","images/shrimps.jpg","images/tacos.jpg");
+var adImages = new Array("./images/poke.jpg","./images/fishy.jpg","./images/snacks.jpg","./images/shrimps.jpg","./images/tacos.jpg");
 
 function choosePic() {
      theAd = Math.floor(Math.random() * adImages.length);
